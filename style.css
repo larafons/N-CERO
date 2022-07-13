@@ -1,0 +1,104 @@
+@import url('http://fonts.cdnfonts.com/css/big-john');
+@import url('http://fonts.cdnfonts.com/css/slim-joe');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body{
+    background-color: rgb(241, 240, 240);
+}
+
+p{
+    margin: 5px;
+}
+
+.divNav{
+    background-color: rgb(86, 85, 82);
+}
+
+.nav-barra{
+    text-align: center;
+}
+
+.imgContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.imgGallery {
+    width: 280px;
+    height: 200px;
+}
+
+.elementVar{
+    font-family: 'Big John', sans-serif;
+    display: inline-block;
+    background-color: rgb(86, 85, 82);
+    font-size: 38.72px;
+    padding-bottom: 10px;
+}
+
+.linkElement{
+    text-decoration: none;
+    color: rgba(255,255,255,255);
+    padding: 10px;
+}
+
+.mainPicture{
+    width: 100%;
+    height: 100%;
+}
+
+.titulo{
+    color: rgb(86, 85, 82);
+    padding: 10px;
+    font-family: 'Big John', sans-serif;
+    font-size: 40px;
+}
+
+.footer{
+    margin-top: 3px;
+    text-align: center;
+    font-family: 'Slim Joe', sans-serif;
+    font-weight: bold;
+}
+
+.formulario{
+    font-family: 'Slim Joe', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    font-family: 'Slim Joe', sans-serif;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.formButton{
+    font-family: 'Slim Joe', sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+    border-width: 1px;
+    border-radius: 12px;
+}
+
+@media screen and (max-width: 1262px) {
+    .elementVar{
+        display:list-item;
+        padding-bottom: 10px;
+        align-content: center;
+    }
+    
+}
