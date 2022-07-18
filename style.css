@@ -39,16 +39,20 @@ p{
 
 .elementVar{
     font-family: 'Big John', sans-serif;
-    display: inline-block;
+    color: #fff;
     background-color: rgb(86, 85, 82);
-    font-size: 38.72px;
-    padding-bottom: 10px;
+    font-size: 37px;
+}
+
+.elementVar:hover{
+    color: #fff;
+    text-decoration: none;
 }
 
 .linkElement{
     text-decoration: none;
     color: rgba(255,255,255,255);
-    padding: 10px;
+    padding: 5px;
 }
 
 .mainPicture{
@@ -83,7 +87,7 @@ p{
     border-radius: 10px;
     border-width: 80%;
     width: 670px;
-    margin: 37px auto 30px;
+    margin: 10px auto 30px;
     transition: all 2s;
 }
 
@@ -105,17 +109,6 @@ p{
     margin: 5px;
     border-width: 1px;
     border-radius: 12px;
-}
-
-.sobre {
-    margin-top: 20px;
-    margin-left: 43%;
-    width: 0;
-    height: 0;
-    border-top: 50px solid #fff;
-    border-right: 85px solid #ddd;
-    border-bottom: 50px solid #ccc;
-    border-left: 85px solid #ddd;
 }
 
 @media screen and (max-width: 1262px) {
