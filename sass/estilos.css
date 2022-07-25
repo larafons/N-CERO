@@ -1,0 +1,44 @@
+@import url("http://fonts.cdnfonts.com/css/big-john");
+@import url("http://fonts.cdnfonts.com/css/slim-joe");
+.titulo {
+  color: rgb(86, 85, 82);
+  padding: 8px;
+  font-family: "Big John", sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.elementVar {
+  font-family: "Big John", sans-serif;
+  color: #fff;
+  background-color: rgb(86, 85, 82);
+  font-size: 37px;
+}
+.elementVar:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.formulario {
+  font-family: "Slim Joe", sans-serif;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: black;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 80%;
+  width: 670px;
+  margin: 10px auto 30px;
+  transition: all 2s;
+}
+.formulario:hover {
+  background-color: #bbb;
+  width: 800px;
+}
+
+.formButton {
+  margin: 4px;
+}/*# sourceMappingURL=estilos.css.map */
